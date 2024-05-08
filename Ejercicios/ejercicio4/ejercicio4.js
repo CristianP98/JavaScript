@@ -20,3 +20,7 @@ let num3 = Number(prompt("Escribe el tercer número"));
 let promedio = (num1 + num2 + num3) / 3;
 
 document.write ("El promedio es: " + promedio);
+
+
+
+// Hacemos una conversión (casting) de String a Number
