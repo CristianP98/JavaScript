@@ -24,4 +24,5 @@ let litros = Number(prompt("Introduce los litros gastados"));
 // Calculamos el consumo
 
 let consumo = litros / km; 
+
 alert("El consumo es de: " + consumo) / km;
