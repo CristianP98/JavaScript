@@ -41,5 +41,15 @@ let gramosCebolla = (GRAMOS_CEBOLLA_TORTILLA * kgPatatas);
 
 console.log(gramosPatatas, huevos, gramosCebolla);
 
+// Escribimos salida: 
 
+let msg = `
+<p>Para ${comensales} comensales se necesitan: </p>
+<ul>
+<li>${gramosPatatas} Gramos de patatas</li>
+<li>${huevos} Huevos</li>
+<li>${gramosCebolla} Gramos de cebolla</li>
+<ul>
+`
 
+document.getElementById("ej-8").innerHTML = msg;
