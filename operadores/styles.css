@@ -1,0 +1,68 @@
+
+    body {
+      background-color: burlywood;
+    }
+    h1 {
+      font-family: "Press Start 2P", system-ui;
+      width: 80%;
+      font-size: 5vw;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      display: block;
+      margin: 1rem auto;
+    }
+    .display{
+      background-color: brown;ç
+      height: 30px;
+      color: white;
+      text-align: end;
+      padding: 1rem;
+      border-radius: 5px 5px 0 0;
+      font-family: monospace;
+      font-size: 1.5rem;
+    }
+    .boton-borrar {
+
+    }
+    .boton-digito {
+      width: 20%;
+      padding: 0.5em 1.8rem;
+      border-radius: 5px;
+      border: 1px solid rgb(80, 74, 74);
+      box-sizing: border-box;
+      box-shadow: 1px 1px;
+    }
+    .boton-operador {
+      width: 20%;
+      /* max-width: 15% ; */
+      /* max-width: 100px; */
+      padding: 0.5em 1.8rem;
+      margin: 1px 2px;
+      border-radius: 5px;
+      /* box-sizing: border-box; */
+      background-color: orange;
+      color: white;
+      text-align: center;
+      box-shadow: 1px 1px lightgray;
+    }
+    .container {
+      display: block;
+      margin: 1rem auto;
+      width: 30%;
+      min-width: 300px;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: gray;
+      border-bottom: 1px solid rgb(94, 84, 84);
+    }
+    .row:last-of-type {
+      border-radius: 0 0 5px 5px;
+    }
+    .cero, .boton-borrar {
+      width: 60%;
+      text-align: center;
+    }
