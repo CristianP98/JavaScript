@@ -17,4 +17,4 @@ let resto = (numero %2);
 let numPar = (resto == 0);
 console.log("El numero par es: " + numPar);
 
-document.getElementById("clase").innerText = `El numero ${numero} es ${numPar};
+document.getElementById("clase").innerText = `El numero ${numero} es ${numPar}`;
