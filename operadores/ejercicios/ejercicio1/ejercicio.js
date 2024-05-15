@@ -72,3 +72,4 @@ console.log(operacion2);
 ------------------------
  Encuentra el perímetro de un cuadrado con un lado de longitud 8. ¿Cómo harías una calculadora para este dato a partir del lado? ¿Y el área?
 */
+
