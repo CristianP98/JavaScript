@@ -74,12 +74,13 @@ console.log(operacion2);
  Encuentra el perímetro de un cuadrado con un lado de longitud 8. ¿Cómo harías una calculadora para este dato a partir del lado? ¿Y el área?
 */
 
-let longitud = Number.parseInt(prompt('Introduzca la longitud'));
-let totalLongitud = (longitud * 4);
-let totalArea = (longitud * longitud);
-let perimetro = (longitud / 4); 
+let longitud    = Number.parseInt(prompt('Introduzca la longitud'));
+let totalLongitud   = (longitud * 4);
+let totalArea   = (longitud * longitud);
+let perimetro   = (longitud / 4); 
 console.log(totalArea, totalLongitud, perimetro);
 
 
 let valor1 = 5 + 10 * 2;
 console.log(valor1);
+
