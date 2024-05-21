@@ -24,3 +24,5 @@ document.getElementById('resetTimer').addEventListener('click',() =>{
 })
 
 // Funcion del cronometro
+
+https://dev.to/shantanu_jana/create-a-simple-stopwatch-using-javascript-3eoo
